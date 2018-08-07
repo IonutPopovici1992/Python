@@ -1,3 +1,5 @@
+### Strings and Text
+
 types_of_people = 10
 x = "There are {} types of people.".format(types_of_people)
 
