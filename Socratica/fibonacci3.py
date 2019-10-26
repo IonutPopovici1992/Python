@@ -5,6 +5,7 @@
 
 from functools import lru_cache
 
+
 @lru_cache(maxsize=1000)
 def fibonacci(n):
     # Check that the input is a positive integer
