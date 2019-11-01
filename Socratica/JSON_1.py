@@ -13,7 +13,8 @@ print(dir(json))
 
 print(50 * "-")
 
-json_file = open("D:/GitHub/Python/Socratica/movie_1.txt")
+# json_file = open("D:/GitHub/Python/Socratica/movie_1.txt")
+json_file = open("/Users/john/Desktop/Python/Socratica/movie_1.txt")
 movie = json.load(json_file)
 json_file.close()
 
