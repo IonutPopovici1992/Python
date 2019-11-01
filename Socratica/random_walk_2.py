@@ -2,6 +2,7 @@
 
 import random
 
+
 def random_walk_2(n):
     """Return coordinates after 'n' block random walk."""
     x, y = 0, 0

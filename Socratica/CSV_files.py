@@ -1,4 +1,5 @@
-path = "D:/GitHub/Python/Socratica/google_stock_data.csv"
+# path = "D:/GitHub/Python/Socratica/google_stock_data.csv"
+path = "/Users/john/Desktop/Python/Socratica/google_stock_data.csv"
 
 file = open(path)
 

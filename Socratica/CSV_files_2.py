@@ -1,7 +1,8 @@
 import csv
 from datetime import datetime
 
-path = "D:/GitHub/Python/Socratica/google_stock_data.csv"
+# path = "D:/GitHub/Python/Socratica/google_stock_data.csv"
+path = "/Users/john/Desktop/Python/Socratica/google_stock_data.csv"
 file = open(path, newline='')
 reader = csv.reader(file)
 
@@ -22,7 +23,8 @@ for row in header:
     data.append([date, open_price, high, low, close, volume, adj_close])
 
 # Compute and store daily stock returns
-returns_path = "D:/GitHub/Python/Socratica/google_returns.csv"
+# returns_path = "D:/GitHub/Python/Socratica/google_returns.csv"
+returns_path = "/Users/john/Desktop/Python/Socratica/google_returns.csv"
 file = open(returns_path, 'w')
 writer = csv.writer(file)
 writer.writerow(["Date", "Return"])
