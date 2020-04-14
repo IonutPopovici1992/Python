@@ -32,7 +32,7 @@ planets = [
     ("Saturn", 60268, 0.69, 9.551),
     ("Uranus", 25559, 1.27, 19.213),
     ("Neptune", 24764, 1.64, 30.070)
-    ]
+]
 
 size = lambda planet: planet[1]
 planets.sort(key=size, reverse=True)

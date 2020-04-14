@@ -14,6 +14,8 @@ movie2["budget"] = 102000000
 movie2["cinematographer"] = "Janusz Kami\u0144ski"
 
 # file2 = open("D:/GitHub/Python/Socratica/movie_2.txt", "w", encoding="utf-8")
-file2 = open("/Users/john/Desktop/Python/Socratica/movie_2.txt", "w", encoding="utf-8")
+# file2 = open("/Users/john/Desktop/Python/Socratica/movie_2.txt", "w", encoding="utf-8")
+file2 = open("/home/joel/Desktop/Python/Socratica/movie_2.txt", "w", encoding="utf-8")
+
 json.dump(movie2, file2, ensure_ascii=False)
 file2.close()

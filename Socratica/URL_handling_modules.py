@@ -84,9 +84,9 @@ print(html)
 
 print(50 * "*")
 
-response2 = request.urlopen("https://www.google.com/search?q=socratica")
-data2 = response2.read()
-print(data2)
+# response2 = request.urlopen("https://www.google.com/search?q=socratica")
+# data2 = response2.read()
+# print(data2)
 
 print(50 * "*")
 
@@ -109,6 +109,7 @@ response3 = request.urlopen(url)
 print(response3.isclosed())
 
 print(25 * "-")
+
 print(response3.code)
 
 print(25 * "-")

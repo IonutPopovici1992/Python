@@ -2,7 +2,9 @@ import csv
 from datetime import datetime
 
 # path = "D:/GitHub/Python/Socratica/google_stock_data.csv"
-path = "/Users/john/Desktop/Python/Socratica/google_stock_data.csv"
+# path = "/Users/john/Desktop/Python/Socratica/google_stock_data.csv"
+path = "/home/joel/Desktop/Python/Socratica/google_stock_data.csv"
+
 file = open(path, newline='')
 reader = csv.reader(file)
 
@@ -24,7 +26,9 @@ for row in header:
 
 # Compute and store daily stock returns
 # returns_path = "D:/GitHub/Python/Socratica/google_returns.csv"
-returns_path = "/Users/john/Desktop/Python/Socratica/google_returns.csv"
+# returns_path = "/Users/john/Desktop/Python/Socratica/google_returns.csv"
+returns_path = "/home/joel/Desktop/Python/Socratica/google_returns.csv"
+
 file = open(returns_path, 'w')
 writer = csv.writer(file)
 writer.writerow(["Date", "Return"])

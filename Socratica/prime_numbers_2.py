@@ -53,4 +53,4 @@ t0 = time.time()
 for n in range(1, 100000):
     is_prime_v2(n)
 t1 = time.time()
-print("Time requred: ", t1 - t0)
+print("Time required: ", t1 - t0)

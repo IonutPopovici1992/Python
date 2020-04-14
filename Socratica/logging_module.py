@@ -9,11 +9,15 @@ print(dir(logging))
 print()
 
 # Create and configure logger
+filename_linux = "/home/joel/Desktop/Python/Socratica/lumberjack.log"
+filename_unix = "/Users/john/Desktop/Python/Socratica/lumberjack.log"
+
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
-logging.basicConfig(filename="/Users/john/Desktop/Python/Socratica/lumberjack.log",
+logging.basicConfig(filename=filename_linux,
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='w')
+
 logger = logging.getLogger()
 
 # Test the logger
@@ -33,12 +37,12 @@ def quadratic_formula(a, b, c):
 
     # Compute the discriminant
     logger.debug("# Compute the discriminant")
-    disc = b**2 - 4*a*c
+    disc = b ** 2 - 4 * a * c
 
     # Compute the two roots
     logger.debug("# Compute the two roots")
-    root1 = (-b + math.sqrt(disc)) / (2*a)
-    root2 = (-b - math.sqrt(disc)) / (2*a)
+    root1 = (-b + math.sqrt(disc)) / (2 * a)
+    root2 = (-b - math.sqrt(disc)) / (2 * a)
 
     # Return the roots
     logger.debug("# Return the roots")
